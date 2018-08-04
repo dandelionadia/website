@@ -1,17 +1,3 @@
-@mixin easeOut {
-    transition: all 1.5s ease-out;
-}
-
-@mixin background {
-    @if $show-home-image {
-        &#bg-img {
-            background: $home-image;
-            background-repeat: no-repeat;
-            background-size: 100%; 
-        }
-    }
-}
-
 * {
     box-sizing: border-box;
 }
